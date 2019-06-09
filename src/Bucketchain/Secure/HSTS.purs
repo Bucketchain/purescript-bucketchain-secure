@@ -36,7 +36,7 @@ encodeOptions :: Options -> String
 encodeOptions { maxAge, includeSubDomains, preload } =
   joinWith "; " $ catMaybes [ maxAge', includeSubDomains', preload' ]
   where
-    maxAge' = Just $ show $ ceil $ unwrap maxAge
+    maxAge' = Just $ "max-age=" <> (show $ ceil $ unwrap maxAge)
     includeSubDomains' =
       if includeSubDomains
         then Just "includeSubDomains"
