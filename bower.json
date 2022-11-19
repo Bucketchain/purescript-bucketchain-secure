@@ -1,34 +1,28 @@
 {
-  "name": "purescript-bucketchain-secure",
-  "license": "MIT",
-  "homepage": "https://github.com/Bucketchain/purescript-bucketchain-secure",
-  "authors": [
-    "Shinya Takahashi <s.takahashi313@gmail.com>"
-  ],
-  "description": "Middlewares for Bucketchain to make apps secure by HTTP headers",
-  "keywords": [
-    "purescript",
-    "webserver",
-    "security"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Bucketchain/purescript-bucketchain-secure"
-  },
-  "moduleType": [
-    "node"
-  ],
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "output"
-  ],
-  "dependencies": {
-    "purescript-bucketchain": "^1.0.0"
-  },
-  "devDependencies": {
-    "purescript-test-unit": "^17.0.0",
-    "purescript-bucketchain-health": "^1.0.0"
-  }
+    "name": "purescript-bucketchain-secure",
+    "license": [
+        "MIT"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Bucketchain/purescript-bucketchain-secure"
+    },
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "output"
+    ],
+    "dependencies": {
+        "purescript-arrays": "^v7.1.0",
+        "purescript-bucketchain": "^v1.0.1",
+        "purescript-datetime": "^v6.1.0",
+        "purescript-effect": "^v4.0.0",
+        "purescript-integers": "^v6.0.0",
+        "purescript-maybe": "^v6.0.0",
+        "purescript-newtype": "^v5.0.0",
+        "purescript-prelude": "^v6.0.1",
+        "purescript-strings": "^v6.0.1",
+        "purescript-transformers": "^v6.0.0"
+    }
 }
